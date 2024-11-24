@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function addition(){
+    var sum=0;
+    var i;
+    for(i=0;i<arguments.length;i++){
+        sum=sum+arguments[i];
+    }
+    return sum;
+}
+document.write(addition(2,3,4));
+    </script>
+</body>
+</html>
